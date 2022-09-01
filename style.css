@@ -1,0 +1,135 @@
+html {
+	scroll-behavior: smooth; 
+}
+
+body {
+	font-size: 20px;
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color: white;
+	background-color: black;
+}
+
+.header-container {
+	display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1920px;
+    height: 50px;
+  	padding: 5px 0 5px 20px;
+}
+
+.logo {
+	background-image: url('assets/svg/logo.svg');
+	background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+	height: 50px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.logo:hover {
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+	  contrast(87%);
+}
+
+.nav-list {
+	display: flex;
+	list-style: none;
+	padding-bottom: 10px;
+}
+
+.nav-item {
+	padding: 0 20px;
+	transition: 0.3s;
+	cursor: pointer;
+}
+
+.nav-item:hover {
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+	  contrast(87%);
+}
+
+.active {
+    filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+  }
+
+.main-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1920px;
+	height: calc(100vh - 130px);
+	background-image: url('assets/img/forest.jpg');
+	background-size: cover;
+}
+
+.audio-player-button {
+ 	height: 150px;
+	width: 150px;
+	position: relative;
+    background: url('assets/svg/play.svg');
+	background-size: contain;
+    border: 0;
+    cursor: pointer;
+	transition: 0.3s;
+}
+
+.audio-player-button:hover {
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+	  contrast(47%);
+}
+
+.pause-button {
+	background: url('assets/svg/pause.svg');
+	background-size: contain;
+}
+
+.footer-container {
+    display: flex;
+	justify-content: space-between;
+	max-width: 1920px;
+	padding: 5px 20px;
+}
+
+.footer-data {
+	display: flex;
+	padding-top: 12px;
+	gap: 20px;
+}
+
+.icon {
+	background-image: url('assets/svg/icon.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+	padding: 0 10px;
+	width: 5px;
+}
+
+.github {
+	text-decoration: none;
+    color: white;
+	transition: 0.3s;
+}
+
+.github:hover {
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+	  contrast(87%);
+}
+
+.rss-link {
+	display: flex;
+	background-image: url('assets/svg/rss.svg');
+	background-size: contain;
+    background-repeat: no-repeat;
+	width: 105px;
+	height: 40px;
+	transition: 0.3s;
+}
+
+.rss-link:hover {
+	filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+	  contrast(87%);
+}
